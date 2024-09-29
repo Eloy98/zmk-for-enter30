@@ -31,7 +31,7 @@ layers:
   - {t: ',', s: <}
   - .
   - $$mdi:arrow-up-bold$$
-  - $$mdi:backspace-reverse-outline$$
+  - EP TOG
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - LWIN
