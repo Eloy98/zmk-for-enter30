@@ -1,0 +1,62 @@
+layers:
+  Qwer:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - Enter
+  - {t: A, s: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, s: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, s: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, s: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - H
+  - {t: J, s: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, s: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, s: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, s: ':'}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', s: <}
+  - .
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - LWIN
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - RWIN
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+combos:
+- p: [0, 1]
+  k: $$mdi:keyboard-esc$$
+- p: [3, 4]
+  k: {t: '[', s: '{'}
+- p: [7, 8]
+  k: {t: ']', s: '}'}
+- p: [26, 27]
+  k: '{'
+- p: [30, 31]
+  k: '}'
+- p: [15, 16]
+  k: <
+- p: [19, 20]
+  k: '>'
+- p: [15, 20]
+  k: '|'
+- p: [3, 8]
+  k: {t: \, s: '|'}
