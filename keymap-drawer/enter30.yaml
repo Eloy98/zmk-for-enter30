@@ -10,7 +10,7 @@ layers:
   - I
   - O
   - P
-  - Enter
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: A, s: '$$mdi:apple-keyboard-command$$'}
   - {t: S, s: '$$mdi:apple-keyboard-option$$'}
   - {t: D, s: '$$mdi:apple-keyboard-control$$'}
