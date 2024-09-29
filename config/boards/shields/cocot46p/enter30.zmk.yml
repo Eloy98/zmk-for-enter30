@@ -1,0 +1,11 @@
+file_format: "1"
+id: enter30
+name: enter30
+type: shield
+url:
+requires:
+  - pro_micro
+exposes:
+features:
+  - keys
+
