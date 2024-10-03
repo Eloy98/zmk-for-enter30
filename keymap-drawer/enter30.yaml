@@ -30,7 +30,7 @@ layers:
   - M
   - {t: ',', s: <}
   - .
-  - $$mdi:arrow-up-bold$$
+  - RGB EFR
   - EP TOG
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
@@ -38,9 +38,9 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - RWIN
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - RGB BRI
+  - RGB EFF
+  - RGB BRD
 combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
