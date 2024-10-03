@@ -7,7 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-
+#include <dt-bindings/zmk/rgb.h>
 
 / {
     combos {
@@ -100,8 +100,8 @@
             bindings = <
 &kp Q           &kp W           &kp E               &kp R             &kp T         &kp Y       &kp U              &kp I                &kp O            &kp P              &kp ENTER
 &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &kp G         &kp H       &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &kp SEMI
-&kp Z           &kp X           &kp C               &kp V             &kp B         &kp N       &kp M              &kp COMMA            &kp PERIOD       &kp UP             &ext_power EP_TOG
-&kp LCTRL       &kp LSHIFT      &kp LWIN            &kp SPACE                       &kp SPACE   &kp RWIN           &kp LEFT             &kp DOWN         &kp RIGHT
+&kp Z           &kp X           &kp C               &kp V             &kp B         &kp N       &kp M              &kp COMMA            &kp PERIOD       &rgb_ug RGB_EFR            &ext_power EP_TOG
+&kp LCTRL       &kp LSHIFT      &kp LWIN            &kp SPACE                       &kp SPACE   &kp RWIN           &rgb_ug RGB_BRI            &rgb_ug RGB_EFF        &rgb_ug RGB_BRD
             >;
             label = "Qwer";
         };
