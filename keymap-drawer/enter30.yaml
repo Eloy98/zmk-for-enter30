@@ -10,7 +10,7 @@ layers:
   - I
   - O
   - P
-  - Enter
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: A, s: '$$mdi:apple-keyboard-command$$'}
   - {t: S, s: '$$mdi:apple-keyboard-option$$'}
   - {t: D, s: '$$mdi:apple-keyboard-control$$'}
@@ -30,17 +30,17 @@ layers:
   - M
   - {t: ',', s: <}
   - .
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:backspace-reverse-outline$$
+  - RGB EFR
+  - EP TOG
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - LWIN
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - RWIN
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - RGB BRI
+  - RGB EFF
+  - RGB BRD
 combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
