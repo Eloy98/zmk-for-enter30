@@ -16,6 +16,7 @@ include:
   # zazu
   - board: nice_nano_v2
     shield: enter30
-    artifact-name: enter30
+    snippet: studio-rpc-usb-uart
+    artifact-name: enter30-studio
   - board: nice_nano_v2
     shield: settings_reset
